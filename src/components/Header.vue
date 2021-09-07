@@ -22,7 +22,7 @@ header {
   }
 
   h2 {
-    @apply: text-2xl my-3 text-gray-300 font-light tracking-wide;
+    @apply: text-3xl my-3 text-gray-400 font-light tracking-wide;
   }
 }
 </style>

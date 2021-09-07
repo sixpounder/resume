@@ -8,11 +8,22 @@ export default defineComponent({
 
 <template>
   <div class="flex flex-row">
-    <div class="flex-1 flex-grow p-6">
+    <div class="left-wrapper">
       <slot name="left" />
     </div>
-    <div class="flex-0 bg-gray-300 p-6">
+    <div class="right-wrapper break-words">
       <slot name="right" />
     </div>
   </div>
 </template>
+
+<style lang="stylus" scoped>
+  .left-wrapper {
+    @apply flex-auto p-6 break-words
+  }
+
+  .right-wrapper {
+    @apply flex-1 flex-shrink bg-gray-200 p-6 space-y-8;
+    min-width 20%;
+  }
+</style>
