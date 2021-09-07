@@ -1,6 +1,13 @@
 <template>
-  <svg :width="computedSize" :height="computedSize">
-    <circle cx="50" cy="50" r="40" :stroke="computedColor" stroke-width="4" fill="yellow" />
+  <svg :viewBox="viewBox" :style="style">
+    <circle
+      :cx="computedSize / 2"
+      :cy="computedSize / 2"
+      :r="computedSize / 2"
+      :fill="computedColor"
+      :stroke="computedColor"
+      stroke-width="0"
+    />
   </svg>
 </template>
 
@@ -19,6 +26,12 @@ export default defineComponent({
       type: Number,
       required: false,
       default: 20
+    },
+
+    color: {
+      type: String,
+      required: false,
+      default: '#000000'
     }
   },
 
@@ -28,7 +41,17 @@ export default defineComponent({
     },
 
     computedColor (): string {
-      return this.active ? '' : ''
+      return this.active ? this.color : `${this.color}40`;
+    },
+
+    viewBox () {
+      return `0 0 ${this.computedSize} ${this.computedSize}`
+    },
+
+    style () {
+      return {
+        height: `${this.computedSize}px`
+      }
     }
   }
 })

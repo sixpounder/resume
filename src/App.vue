@@ -27,11 +27,11 @@ export default defineComponent({
     <template v-slot:left>
       <Prologue />
       <WorkHistory />
+      <Footer class="mt-60" />
     </template>
     <template v-slot:right>
       <Contacts />
       <Skills />
     </template>
   </Layout>
-  <Footer />
 </template>

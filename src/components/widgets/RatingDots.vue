@@ -1,0 +1,19 @@
+<template>
+  <div class="inline-flex flex-row flex-grow-0 space-x-1 justify-end">
+    <Dot v-for="index in 5" :key="index" :active="index <= value" :size="16" color="#f59e0b"></Dot>
+  </div>
+</template>
+
+<script lang="ts" setup>
+import Dot from './Dot.vue';
+
+defineProps({
+  value: {
+    type: Number,
+    required: true,
+    validator: function (value: number) {
+      return value >= 0 && value <= 5;
+    },
+  },
+});
+</script>

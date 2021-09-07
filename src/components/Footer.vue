@@ -1,15 +1,15 @@
 <template>
-  <small>
+  <footer>
     This resume source code is available at
       <a target="noopener" href="https://github.com/sixpounder/resume">
           https://github.com/sixpounder/resume
       </a>
-    </small>
+    </footer>
 </template>
 
 <style lang="stylus" scoped>
-    small
-        @apply block w-full text-center my-6
+    footer
+        @apply block w-full text-center my-6 text-sm
         a
             @apply text-indigo-800
             &:hover
