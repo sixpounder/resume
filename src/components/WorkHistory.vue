@@ -66,7 +66,7 @@
     >
       <ul>
         <li>
-          Constantly mantaining personal projects and starting new ones, both on programming and design side
+          Constantly maintaining personal projects and starting new ones, both on programming and design side
         </li>
         <li>
           Designing custom icon sets for specific purposes, either personal or for third parties
