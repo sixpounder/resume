@@ -1,21 +1,61 @@
 <template>
   <SectionTitle>Work history</SectionTitle>
-  <section>
+  <section class="space-y-4">
     <HistoryEntry
-      title="Software architect / developer"
+      title="Software Architect / Developer"
       subtitle="Monte dei Paschi di Siena, Siena, Italy"
-      period="2006-10 - Current"
+      time-range="2006-10 - Current"
     >
       <ul>
         <li>
-          Developed software from ground up with measured, customer-focused approach to eliminate waste and
-          streamline implementation cycle
+          Developed software from ground up with measured, customer-focused
+          approach to eliminate waste and streamline implementation cycle
         </li>
         <li>
-          Worked with a wide range of technologies, gaining proficiency in most of them, including back end analysis and development
+          Worked with a wide range of technologies, gaining proficiency in most
+          of them, including back end analysis and development
         </li>
         <li>
-          Lead designer and developer of the latest company's UI kit graphic libraries, used on the vast majority of web applications at the present day
+          Lead designer and developer of the latest company's UI kit graphic
+          libraries, used on the vast majority of its web applications at the
+          present day
+        </li>
+      </ul>
+    </HistoryEntry>
+    <HistoryEntry
+      title="UI/UX Designer"
+      subtitle="Monte dei Paschi di Siena, Siena, Italy"
+      time-range="2006-10 - Current"
+    >
+      <ul>
+        <li>
+          Created, improved and expanded project platforms using Javascript and
+          modern web frameworks (Angular, Vue, React) to develop rich users
+          interfaces.
+        </li>
+        <li>
+          Communicated with product managers and UX designers to translate
+          project requirements and business objectives into polished user
+          interfaces
+        </li>
+      </ul>
+    </HistoryEntry>
+    <HistoryEntry
+      title="Open Source community contributor"
+      subtitle="OSS community"
+      time-range="Some point in the past - Current"
+    >
+      <ul>
+        <li>
+          Involved in numerous open source projects of different kinds,
+          including system utilities like
+          <a href="https://crates.io/crates/seagul" target="noopener">Seagul</a>
+          and free and open writing applications like
+          <a href="https://github.com/sixpounder/manuscript" target="noopener">Manuscript</a>
+          (soon to be published)
+        </li>
+        <li>
+          Involved into the ElementaryOS community
         </li>
       </ul>
     </HistoryEntry>
@@ -25,10 +65,18 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import SectionTitle from "./widgets/SectionTitle.vue";
+import HistoryEntry from "./widgets/HistoryEntry.vue";
 
 export default defineComponent({
   components: {
     SectionTitle,
+    HistoryEntry,
   },
 });
 </script>
+
+<style lang="stylus" scoped>
+ul {
+  @apply: list-disc;
+}
+</style>

@@ -26,7 +26,7 @@ export default defineComponent({
 <style lang="stylus" scoped>
   a
     @media screen
-      @apply text-indigo-800
+      @apply text-indigo-600
       &:hover
         @apply underline
     @media print

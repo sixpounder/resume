@@ -1,17 +1,23 @@
 <template>
   <footer>
     This resume source code is available at
-      <a target="noopener" href="https://github.com/sixpounder/resume">
-          https://github.com/sixpounder/resume
-      </a>
-    </footer>
+    <a target="noopener" href="https://github.com/sixpounder/resume">
+      https://github.com/sixpounder/resume
+    </a>
+  </footer>
 </template>
 
 <style lang="stylus" scoped>
-    footer
-        @apply block w-full text-center my-6 text-sm
-        a
-            @apply text-indigo-800
-            &:hover
-                @apply underline
+footer {
+  margin-top 2rem!important;
+  @apply: block w-full text-center text-sm;
+
+  a {
+    @apply: text-indigo-600;
+
+    &:hover {
+      @apply: underline;
+    }
+  }
+}
 </style>

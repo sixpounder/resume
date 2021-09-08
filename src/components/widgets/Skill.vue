@@ -8,7 +8,7 @@
       class="skill-rating text-right flex flex-col"
     >
       <RatingDots :value="rating ?? 0"></RatingDots>
-      <span class="text-gray-700">
+      <span class="text-gray-700 italic">
         {{ computedSkillRatingLabel }}
       </span>
     </div>
@@ -56,11 +56,19 @@ const defaultRatingLabel = () => {
 
 const computedSkillRatingLabel = computed(() => {
   return isString(props.ratingLabel)
-    ? props.rating
+    ? props.ratingLabel
     : defaultRatingLabel();
 });
 
 const hasRating = computed(() => {
   return !isUndefined(props.rating)
+})
+</script>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'Skill'
 })
 </script>
