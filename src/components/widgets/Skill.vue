@@ -7,7 +7,7 @@
       v-if="hasRating"
       class="skill-rating text-right flex flex-col"
     >
-      <RatingDots :value="rating ?? 0"></RatingDots>
+      <RatingDots :value="rating ?? 0" :color="dotColor"></RatingDots>
       <span class="text-gray-700 dark:text-gray-400 italic">
         {{ computedSkillRatingLabel }}
       </span>
@@ -34,6 +34,11 @@ const props = defineProps({
     required: false,
     default: undefined,
   },
+  dotColor: {
+    type: String,
+    required: false,
+    default: "#f59e0b"
+  }
 });
 
 const defaultRatingLabel = () => {

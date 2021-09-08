@@ -1,6 +1,6 @@
 <template>
   <div class="inline-flex flex-row flex-grow-0 space-x-1 justify-end">
-    <Dot v-for="index in 5" :key="index" :active="index <= value" :size="16" color="#f59e0b"></Dot>
+    <Dot v-for="index in 5" :key="index" :active="index <= value" :size="16" :color="color"></Dot>
   </div>
 </template>
 
@@ -15,6 +15,11 @@ defineProps({
       return value >= 0 && value <= 5;
     },
   },
+  color: {
+    type: String,
+    required: false,
+    default: "#f59e0b"
+  }
 });
 </script>
 

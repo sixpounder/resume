@@ -10,6 +10,10 @@
         <SectionSubtitle> Email </SectionSubtitle>
         <Email address="andrea.coronese@hey.com" />
       </div>
+      <div>
+        <SectionSubtitle> Github </SectionSubtitle>
+        <a href="https://github.com/sixpounder" target="noopener">https://github.com/sixpounder</a>
+      </div>
     </div>
   </section>
 </template>

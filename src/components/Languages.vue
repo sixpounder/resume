@@ -2,8 +2,8 @@
   <section id="spoken-languages">
     <SectionTitle>Spoken languages</SectionTitle>
     <div class="mt-4 space-y-4">
-      <Skill :rating="5" rating-label="Mother tongue">Italian</Skill>
-      <Skill :rating="5">English</Skill>
+      <Skill dot-color="#9381FF" :rating="5" rating-label="Mother tongue">Italian</Skill>
+      <Skill dot-color="#9381FF" :rating="5">English</Skill>
     </div>
   </section>
 </template>

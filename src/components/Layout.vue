@@ -13,6 +13,7 @@
   .layout-wrap
     .left-wrapper
       @apply flex-auto p-6 text-justify break-words space-y-8
+      @apply leading-6
 
     .right-wrapper
       @apply flex-1 flex-shrink p-6 space-y-8

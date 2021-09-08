@@ -9,7 +9,8 @@ html {
 }
 
 body {
-  @apply dark:text-gray-200
+  @apply dark:text-gray-200;
+  @apply subpixel-antialiased;
 }
 
 a {
