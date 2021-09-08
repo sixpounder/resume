@@ -8,7 +8,7 @@
       class="skill-rating text-right flex flex-col"
     >
       <RatingDots :value="rating ?? 0"></RatingDots>
-      <span class="text-gray-700 italic">
+      <span class="text-gray-700 dark:text-gray-400 italic">
         {{ computedSkillRatingLabel }}
       </span>
     </div>

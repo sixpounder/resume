@@ -10,15 +10,4 @@
 <style lang="stylus" scoped>
 footer
   @apply: block w-full text-center text-sm
-
-  a
-    @apply: text-indigo-600
-
-    &:hover
-      @apply: underline
-
-    @media print
-      color initial
-      &:hover
-          text-decoration none
 </style>

@@ -59,6 +59,20 @@
         </li>
       </ul>
     </HistoryEntry>
+    <HistoryEntry
+      title="Personal Projects"
+      subtitle="Anywhere"
+      time-range="Continuous"
+    >
+      <ul>
+        <li>
+          Constantly mantaining personal projects and starting new ones, both on programming and design side
+        </li>
+        <li>
+          Designing custom icon sets for specific purposes, either personal or for third parties
+        </li>
+      </ul>
+    </HistoryEntry>
   </section>
 </template>
 

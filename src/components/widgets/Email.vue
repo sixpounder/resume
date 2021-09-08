@@ -22,13 +22,3 @@ export default defineComponent({
     {{ address }}
   </a>
 </template>
-
-<style lang="stylus" scoped>
-  a
-    @media screen
-      @apply text-indigo-600
-      &:hover
-        @apply underline
-    @media print
-      color initial
-</style>
