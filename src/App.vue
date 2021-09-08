@@ -46,15 +46,3 @@ export default defineComponent({
     </Layout>
   </main>
 </template>
-
-<style lang="stylus">
-a
-  @apply text-indigo-600
-  &:hover
-      @apply underline
-
-  @media print
-    color initial
-    &:hover
-        text-decoration none
-</style>

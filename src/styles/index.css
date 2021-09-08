@@ -3,3 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+  @apply text-indigo-600;
+}
+a:hover {
+  @apply underline text-indigo-500;
+}
+
+@media print {
+  a {
+    color: initial;
+  }
+  a:hover {
+      text-decoration: none;
+  }
+}
