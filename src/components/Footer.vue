@@ -8,16 +8,17 @@
 </template>
 
 <style lang="stylus" scoped>
-footer {
-  margin-top 2rem!important;
-  @apply: block w-full text-center text-sm;
+footer
+  @apply: block w-full text-center text-sm
 
-  a {
-    @apply: text-indigo-600;
+  a
+    @apply: text-indigo-600
 
-    &:hover {
-      @apply: underline;
-    }
-  }
-}
+    &:hover
+      @apply: underline
+
+    @media print
+      color initial
+      &:hover
+          text-decoration none
 </style>

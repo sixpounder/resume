@@ -8,7 +8,7 @@
       </div>
       <div>
         <SectionSubtitle> Email </SectionSubtitle>
-        <Email address="sixpounder@pm.me" />
+        <Email address="andrea.coronese@hey.com" />
       </div>
     </div>
   </section>

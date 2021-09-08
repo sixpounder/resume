@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-4">
     <p>
-      Successfull senior software developer offering 15+ years of experience in demanding environments focues on producing
+      Successfull senior software developer offering 15+ years of experience in demanding environments focused on producing
       cutting-edge systems for web platforms. Skilled in directing development with creative and performance-oriented approach.
       Well-organized and customer-focused with proven skills in software architecture design.
     </p>

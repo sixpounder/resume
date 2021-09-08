@@ -9,6 +9,7 @@ import Education from "./components/Education.vue";
 import Contacts from "./components/Contacts.vue";
 import Skills from "./components/Skills.vue";
 import SpokenLanguages from "./components/Languages.vue";
+import SoftSkills from "./components/SoftSkills.vue";
 
 export default defineComponent({
   components: {
@@ -21,6 +22,7 @@ export default defineComponent({
     Contacts,
     Skills,
     SpokenLanguages,
+    SoftSkills,
   },
 });
 </script>
@@ -37,6 +39,7 @@ export default defineComponent({
       <template v-slot:right>
         <Contacts />
         <Skills />
+        <SoftSkills />
         <SpokenLanguages />
         <Footer />
       </template>
