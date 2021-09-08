@@ -3,7 +3,7 @@
     <SectionTitle>Skills</SectionTitle>
     <div class="mt-4 space-y-4">
       <Skill :rating="5">Javascript / Typescript Specialist</Skill>
-      <Skill :rating="5">API design Specialist</Skill>
+      <Skill :rating="5">API Design Specialist</Skill>
       <Skill :rating="5">UI/UX Design</Skill>
       <Skill :rating="5">Modern Front End Web Development</Skill>
       <Skill :rating="5">NodeJS Expert</Skill>
