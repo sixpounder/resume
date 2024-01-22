@@ -2,9 +2,23 @@
   <SectionTitle>Work history</SectionTitle>
   <section class="space-y-4">
     <HistoryEntry
+      title="Software Architect / Developer / Tech lead"
+      subtitle="Alten"
+      time-range="2022-09 - Curent"
+    >
+      <ul>
+        <li>
+          Leading a team of developers working on backend technology for a prominent client
+        </li>
+        <li>
+          Event driven system design & implementation
+        </li>
+      </ul>
+    </HistoryEntry>
+    <HistoryEntry
       title="Software Architect / Developer"
       subtitle="Monte dei Paschi di Siena, Siena, Italy"
-      time-range="2006-10 - Current"
+      time-range="2006-10 - 2022-09"
     >
       <ul>
         <li>
@@ -25,7 +39,7 @@
     <HistoryEntry
       title="UI/UX Designer"
       subtitle="Monte dei Paschi di Siena, Siena, Italy"
-      time-range="2006-10 - Current"
+      time-range="2006-10 - 2022-09"
     >
       <ul>
         <li>
