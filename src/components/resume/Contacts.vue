@@ -3,10 +3,6 @@
     <SectionTitle>Contact</SectionTitle>
     <div class="space-y-4 mt-4">
       <div>
-        <SectionSubtitle> Phone </SectionSubtitle>
-        <p>392 108 4185</p>
-      </div>
-      <div>
         <SectionSubtitle> Email </SectionSubtitle>
         <Email address="a.coronese@pm.me" />
       </div>
