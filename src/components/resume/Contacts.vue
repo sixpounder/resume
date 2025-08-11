@@ -8,7 +8,11 @@
       </div>
       <div>
         <SectionSubtitle> Github </SectionSubtitle>
-        <a href="https://github.com/sixpounder" target="noopener">https://github.com/sixpounder</a>
+        <a href="https://github.com/sixpounder" target="noopener">github.com/sixpounder</a>
+      </div>
+      <div>
+        <SectionSubtitle> Website </SectionSubtitle>
+        <a href="https://andrea-coronese.netlify.app/" target="noopener">andrea-coronese.netlify.app</a>
       </div>
     </div>
   </section>

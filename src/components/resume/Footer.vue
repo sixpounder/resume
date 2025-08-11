@@ -2,7 +2,7 @@
   <footer>
     This resume source code is available at
     <a target="noopener" href="https://github.com/sixpounder/resume">
-      https://github.com/sixpounder/resume
+      github.com/sixpounder/resume
     </a>
   </footer>
 </template>
