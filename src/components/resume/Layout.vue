@@ -18,4 +18,8 @@
     .right-wrapper
       @apply flex-1 flex-shrink p-6 space-y-8
       min-width 25%
+
+  @media print
+    .right-wrapper
+      break-before page
 </style>
