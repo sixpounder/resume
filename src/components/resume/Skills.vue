@@ -15,6 +15,7 @@
       <Skill :rating="5">Kafka Streams / Connect</Skill>
       <Skill :rating="5">Rust</Skill>
       <Skill :rating="4">Ruby</Skill>
+      <Skill :rating="4">Mongo</Skill>
       <Skill :rating="3">C/C++</Skill>
     </div>
   </section>
